@@ -1,0 +1,122 @@
+  @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+  body {
+  color: #555;
+  margin: 0;
+
+  font-family: 'Montserrat',sans-serif;
+}
+#header {
+  background-color: black;
+height: 150px;
+line-height: 150px;
+}
+#header a {
+  color: orange;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#header a:hover {
+  color: blue;
+}
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 50px;
+  font-family: cursive;
+}
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+  padding-right: 50px;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+.container {
+  max-width: 100;
+  margin: 0 auto;
+}
+#footer {
+  background-color: orange;
+  padding: 50px 0;
+}
+.column {
+  min-width: 300px;
+  display:inline-block;
+  vertical-align: top;
+}
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-left: 20px;
+}
+#footer p {
+  color: black;
+  padding-left: 20px;
+}
+a {
+  color: black;
+  text-decoration: underline;
+  padding-left: 20px
+}
+a:hover {
+  color: blue;
+}
+.post{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+aside {
+	margin: 40px;
+	padding: 14px;
+	top: 200px;
+	width: 200px;
+	text-align:center;
+	right: 10px;
+	color: rgb(68, 68, 68);
+	font-family: Abel;
+	font-size: 11px;
+	font-weight: normal;
+	position: absolute;
+}
+aside img {
+  image-orientation: 180
+  
+}
+h1, h2, h3, h4 {
+  color: #333;
+}
+p {
+  line-height:1.5;
+}
+table {
+	padding: 10px;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-image: none;
+	text-align: left;
+	table-layout: fixed;
+}
+td {
+	padding: 10px;
+	border: currentColor;
+	border-image: none;
+	text-align: left;
+	table-layout:fixed;
+}
+.resumetable {
+	width: 100%;
+	border: 0;
+	padding: 5px;
+}
